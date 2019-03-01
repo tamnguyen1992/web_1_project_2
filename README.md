@@ -1,7 +1,7 @@
 # Project 2 - Nessst
 This project is near and dear to me, as it was my BFA project back in 2012. Around this time, Responsive Web Design was fairly new. It wasn't something that was taught at EWU, and I had to teach myself how to make everything work. Technology has come a long way. It took me 6 months to build this project. 
 
-You have a week and a half.  
+You have a week. 
 
 The difference between then, and now, is that you have Allan and myself to help you. This is an extension of the Flexbox exercises that we did in class, with slight variations. 
 
