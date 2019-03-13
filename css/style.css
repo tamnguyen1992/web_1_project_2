@@ -1,0 +1,72 @@
+#student-feature {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr) 2fr;
+	grid-template-rows: repeat(3, 1fr); 
+	grid-gap: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+ #focus {
+	background: url('https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80');
+	background-size: cover;
+	background-position: center;
+	grid-column-start: 1 ;
+	grid-column-end: 4;
+	grid-row-start: 1; 
+	grid-row-end: 3;
+	border: 1px solid red;
+}
+
+
+
+#position-one {
+	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 1 ;
+	grid-column-end: 2;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+
+#position-two {
+	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 2 ;
+	grid-column-end: 3;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+
+#position-three {
+	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 3 ;
+	grid-column-end: 4;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+
+#bio {
+	background: red;
+	grid-column-start: 4 ;
+	grid-column-end: 5;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+}
+
+#project-detail {
+	background: blue;
+	grid-column-start: 4 ;
+	grid-column-end: 5;
+	grid-row-start: 2; 
+	grid-row-end: 4;
+}
+
+
+
