@@ -19,4 +19,4 @@ Fork this repsitory and commit your work to your new repo. You will need to crea
 Follow the design as closely as possible. 
 
 ## Submission
-Submit your live link to Canvas. 
+Submit your Github live link to me via direct message on Slack
