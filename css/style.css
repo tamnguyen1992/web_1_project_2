@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
+body {
+    font-family: "Museo", sans-serif;
+}
+
+
 #student-feature {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr) 2fr;
