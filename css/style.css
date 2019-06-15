@@ -5,78 +5,483 @@
 
 body {
     font-family: "Museo", sans-serif;
+	background: url('https://github.com/tamnguyen1992/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+}
+
+nav{
+  margin: 24px 50px;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  align-self: center;
+}
+a{
+  color: #524C4C;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu{
+  display: flex;
+  width: 20rem;
+  margin: auto 20px;
+  justify-content: space-between;
+}
+
+#nav-right {
+  text-align: right;
+}
+#loginl{
+  padding: 0 10px 0 0;
+}
+#loginr{
+  padding: 0 0 0 10px;
+}
+.social-icon {
+  width: 25px;
+  margin: 3px 3px 10px 3px;
+  border-radius: 4px;
+}
+
+/*header img*/
+#header-img{
+  height: 30rem;
+  background: url('http://alena-vysotskaya.ru/images/200/DSC100259904.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 40px 40px 40px;
+  border: solid white 10px;
+  position: relative;
+}
+.arrow-icon {
+  height: 60px;
+  width: 70px;
+}
+#arrow-left{
+  top: 14rem;
+  left: -2rem;
+  position: absolute;
+}
+#arrow-right {
+  top: 14rem;
+  right: -2rem;
+  position: absolute;
+}
+#header-img-text{
+  position: absolute;
+  background: rgba(58, 58, 56, 0.747);
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+}
+#header-img-text p {
+  padding: 0px 30px;
+  font-size: 20px;
+  color: white;
+  font-family: "museo";
+}
+
+.text-title{
+  text-align: center;
+  font-size: 30px;
+  color: #524C4C;
+}
+
+#gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 40px;
+  height: 60vh;
+}
+#label-1{
+  background: url('https://images.unsplash.com/photo-1519575706483-221027bfbb31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-2{
+  background: url('http://clipart-library.com/images/di45aeL4T.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-3{
+  background: url('https://i.imgur.com/vlmUXyk.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-4{
+  background: url('https://i.pinimg.com/originals/20/a5/8f/20a58f0af4c1784e45dc15a26c041303.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-5{
+  background: url('https://atgbcentral.com/data/out/44/4282117-cool-wallpapers-for-iphone.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-6{
+  background: url('http://images4.fanpop.com/image/photos/17500000/cool-background-random-17506483-800-600.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-7{
+  background: url('https://i.ytimg.com/vi/UpX74_GZavk/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-8{
+  background: url('http://clipart-library.com/images/pT5ra4Xgc.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-9{
+  background: url('https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/5c4899bc898583c25136d4d4/1548261828115/this-cool-spider-man-into-the-spider-verse-poster-art-from-matt-ferguson-glows-in-the-dark-social.jpg?format=2500w');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-10{
+  background: url('http://getwallpapers.com/wallpaper/full/a/6/1/414243.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-11{
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtbvWuxaDB0flqqEgYJr9jG15tifnkQI6ZhLlMzlRqi_p1Fv8BKA');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#label-12{
+  background: url('https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.primary{
+  background: red;
+}
+#bt{
+  display:flex;
+  justify-content: center;
+}
+.button{
+  background: url('https://github.com/tamnguyen1992/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+  background-color: #b5b5ad;
+  border: none;
+  color: white;
+  padding: 12px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  background-blend-mode: multiply;
 }
 
 
-#student-feature {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr) 2fr;
-	grid-template-rows: repeat(3, 1fr); 
-	grid-gap: 10px;
+footer {
+  background:url('https://github.com/tamnguyen1992/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+  background-color: #b5b5ad;
+  background-blend-mode: multiply;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  width: 100%;
+  justify-content: end;
+}
+#foot-highlight {
+  background-color: #666;
+  color: white;
+  font-family: "museo";
+  font-size: 16px;
+  padding: 1px;
+  text-align: center;
+}
+.foot-icon {
+  width: 20px;
+  margin-right: 20px;
+  transform: rotate(30deg);
+}
+.foot-small-text{
+  font-size: 10px;
+}
+#foot-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 0px 20px;
+  height: 20em;
+}
+.foot-col{
+  /*background: red;*/
+  font-size: 16px;
+  margin: 20px 10px;
+}
+.nav-foot-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.uppercase{
+  color: #524C4C;
+  text-transform: uppercase;
+  font-family: "museo";
+  font-weight: bold;
+  font-size: 18px;
+}
+.white-text{
+  color: white;
+  font-family: "museo";
+  font-size: 14px;
+}
+.search{
+  position: relative;
+}
+.search-icon{
+  width: 12px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+input {
+  text-indent: 30px;
+  width: 100%;
 }
 
-img {
-	width: 100%;
+#foot-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5px;
+  height: 60%;
 }
-
- #focus {
-	background: url('https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80');
-	background-size: cover;
-	background-position: center;
-	grid-column-start: 1 ;
+#fg-1{
+  background: url('https://images.unsplash.com/photo-1519575706483-221027bfbb31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#fg-2{
+  background: url('http://clipart-library.com/images/di45aeL4T.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#fg-3{
+  background: url('https://i.imgur.com/vlmUXyk.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#fg-4{
+  background: url('https://i.pinimg.com/originals/20/a5/8f/20a58f0af4c1784e45dc15a26c041303.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#fg-5{
+  background: url('https://atgbcentral.com/data/out/44/4282117-cool-wallpapers-for-iphone.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#fg-6{
+  background: url('http://images4.fanpop.com/image/photos/17500000/cool-background-random-17506483-800-600.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#fg-7{
+  background: url('https://i.ytimg.com/vi/UpX74_GZavk/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#fg-8{
+  background: url('http://clipart-library.com/images/pT5ra4Xgc.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/*css for student detail*/
+#header-detail{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
+  grid-template-rows: 1r 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin: 0 40px 40px 40px;
+  height: 60vh;
+}
+#dt-1{
+  grid-column-start: 1;
 	grid-column-end: 4;
-	grid-row-start: 1; 
-	grid-row-end: 3;
-	border: 1px solid red;
-}
-
-
-
-#position-one {
-	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
-	background-position: center;
-	background-size: cover;
-	grid-column-start: 1 ;
-	grid-column-end: 2;
-	grid-row-start: 3; 
+	grid-row-start: 1;
 	grid-row-end: 4;
 }
-
-#position-two {
-	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
-	background-position: center;
-	background-size: cover;
-	grid-column-start: 2 ;
-	grid-column-end: 3;
-	grid-row-start: 3; 
-	grid-row-end: 4;
-}
-
-#position-three {
-	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
-	background-position: center;
-	background-size: cover;
-	grid-column-start: 3 ;
-	grid-column-end: 4;
-	grid-row-start: 3; 
-	grid-row-end: 4;
-}
-
-#bio {
-	background: red;
-	grid-column-start: 4 ;
+#dt-2{
+  grid-column-start: 4;
 	grid-column-end: 5;
-	grid-row-start: 1; 
+	grid-row-start: 1;
 	grid-row-end: 2;
+  background: white;
 }
-
-#project-detail {
-	background: blue;
-	grid-column-start: 4 ;
+#dt-3{
+  grid-column-start: 4;
 	grid-column-end: 5;
-	grid-row-start: 2; 
-	grid-row-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 5;
+  background: white;
+}
+#dt-4{
+  grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 5;
+  background: url('https://i.pinimg.com/originals/20/a5/8f/20a58f0af4c1784e45dc15a26c041303.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: solid white 10px;
+}
+#dt-5{
+  grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 5;
+  background: url('https://atgbcentral.com/data/out/44/4282117-cool-wallpapers-for-iphone.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: solid white 10px;
+}
+#dt-6{
+  grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
+  background: url('http://images4.fanpop.com/image/photos/17500000/cool-background-random-17506483-800-600.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: solid white 10px;
 }
 
+#header-img-dt{
+  height: 100%;
+  background: url('http://alena-vysotskaya.ru/images/200/DSC100259904.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: solid white 10px;
+  position: relative;
+}
+.header-info-dt{
+  height: 100%;
+  position: relative;
+  margin: 10px;
+}
+.header-text-dt{
+  position: absolute;
+  text-align: right;
+  right: 33%;
+}
+.header-text-dt p{
+  margin: 5px;
+}
+#header-info-img-dt{
+  height: 85%;
+  width: 30%;
+  background: url('http://alena-vysotskaya.ru/images/200/DSC100259904.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+}
 
+.header-about-dt{
+  position: absolute;
+  text-align: left;
+  font-size: 14px;
+}
 
+.text-title-dt{
+  font-size: 20px;
+  color: #524C4C;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+#gallery-dt{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 0 40px 40px 40px;
+  height: 60vh;
+}
+#labeldt-1{
+  background: url('https://images.unsplash.com/photo-1519575706483-221027bfbb31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#labeldt-2{
+  background: url('http://clipart-library.com/images/di45aeL4T.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#labeldt-3{
+  background: url('https://i.imgur.com/vlmUXyk.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#labeldt-4{
+  background: url('https://i.pinimg.com/originals/20/a5/8f/20a58f0af4c1784e45dc15a26c041303.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#labeldt-5{
+  background: url('https://atgbcentral.com/data/out/44/4282117-cool-wallpapers-for-iphone.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#labeldt-6{
+  background: url('http://images4.fanpop.com/image/photos/17500000/cool-background-random-17506483-800-600.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#labeldt-7{
+  background: url('https://i.ytimg.com/vi/UpX74_GZavk/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#labeldt-8{
+  background: url('http://clipart-library.com/images/pT5ra4Xgc.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/*tablet design*/
+@media screen and (max-width: 1024px) {
+  #gallery{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  #foot-main{
+    grid-template-columns: 1fr 1fr;
+  }
+  #footer-gallery {
+    display: none;
+  }
+  .text-title{
+    font-size: 20px;
+  }
+  .button{
+    padding: 8px 70px;
+    font-size: 16px;
+  }
+  .uppercase{
+    font-size: 14px;
+  }
+  .white-text{
+    font-size: 12px;
+  }
+  .header-about-dt{
+    font-size: 12px;
+  }
+  .header-text-dt p{
+	font-size: 12px;
+  }
+}
